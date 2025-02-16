@@ -1,0 +1,6 @@
+@CicekSepetiApi_HostAddress = http://localhost:5120
+
+GET {{CicekSepetiApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
