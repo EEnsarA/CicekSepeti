@@ -1,2 +1,47 @@
+###########################
+# Genel Editör / IDE Dosyaları
+###########################
 BeniOku.txt
-CicekSepetiWeb/node_modules
+
+
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+###########################
+# Genel Build / Kullanıcı Dosyaları
+###########################
+*.suo
+*.user
+*.csproj.user
+*.sln
+*.sw?
+*.ntvs*
+*.njsproj
+
+###########################
+# React / Node (Frontend)
+###########################
+CicekSepetiWeb/node_modules/
+CicekSepetiWeb/.vs/
+CicekSepetiWeb/dist/
+CicekSepetiWeb/dist-ssr/
+CicekSepetiWeb/*.local
+CicekSepetiWeb/logs/
+CicekSepetiWeb/*.log
+CicekSepetiWeb/npm-debug.log*
+CicekSepetiWeb/yarn-debug.log*
+CicekSepetiWeb/yarn-error.log*
+CicekSepetiWeb/pnpm-debug.log*
+CicekSepetiWeb/lerna-debug.log*
+
+###########################
+# .NET API (Backend)
+###########################
+CicekSepetiApi/bin/
+CicekSepetiApi/obj/
+CicekSepetiApi/.vs/
+CicekSepetiApi/*.user
+CicekSepetiApi/*.csproj.user
+CicekSepetiApi/appsettings.Development.json 
